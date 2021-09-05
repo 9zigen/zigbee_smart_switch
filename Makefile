@@ -1,8 +1,8 @@
-PROJECT_NAME     := ble_zigbee_dynamic_template_pca10056_s140
+PROJECT_NAME     := zigbee_smart_switch
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := _build
 
-SDK_ROOT := ../../../SDK/nRF5_SDK_for_Thread_and_Zigbee_v4.0.0
+SDK_ROOT := ../../../SDK/nRF5_SDK_for_Thread_and_Zigbee_v4.1.0
 PROJ_DIR := .
 
 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
